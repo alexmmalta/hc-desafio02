@@ -31,6 +31,7 @@ export const Container = styled.div`
             padding: 10px;
             margin-right: 50px;
             border-radius: 5px;
+            justify-content: space-between;
         }
         .cart:hover {
             background-color: #fff;
