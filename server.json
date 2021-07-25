@@ -1,0 +1,39 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "name": "Papel1",
+            "photo": "https://d1kvbg99uxpcu.cloudfront.net/Custom/Content/Products/10/60/1060486_resma-de-papel-a4-rymo-chamex-2300016-75gr-com-500-folhas_m3_637342376049244006.jpg",
+            "description": "descrição",
+            "price": "50"
+        },
+        {
+            "id": 2,
+            "name": "Papel2",
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-jpuW5Yfqwvo-aJpYmFk_4ZlfTbvK52Ayf07h6T2eWvo1mDvd1bOaW2o53g&usqp=CAc",
+            "description": "descrição",
+            "price": "50"
+        },
+        {
+            "id": 3,
+            "name": "Papel3",
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-jpuW5Yfqwvo-aJpYmFk_4ZlfTbvK52Ayf07h6T2eWvo1mDvd1bOaW2o53g&usqp=CAc",
+            "description": "descrição",
+            "price": "50"
+        },
+        {
+            "id": 4,
+            "name": "Papel4",
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-jpuW5Yfqwvo-aJpYmFk_4ZlfTbvK52Ayf07h6T2eWvo1mDvd1bOaW2o53g&usqp=CAc",
+            "description": "descrição",
+            "price": "50"
+        },
+        {
+            "id": 5,
+            "name": "Papel5",
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-jpuW5Yfqwvo-aJpYmFk_4ZlfTbvK52Ayf07h6T2eWvo1mDvd1bOaW2o53g&usqp=CAc",
+            "description": "descrição",
+            "price": "50"
+        }
+    ]
+}
