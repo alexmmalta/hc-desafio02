@@ -34,15 +34,15 @@ const Home: React.FC = () => {
 
   return (
     <Container>
-      <div className="nav">
+      <header>
         <div>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Dunder_Mifflin%2C_Inc.svg" alt="logo" />
+          <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Dunder_Mifflin%2C_Inc.svg" alt="logo" />
         </div>
         <div className="cart">
           <img src="https://image.flaticon.com/icons/png/512/1170/1170678.png" alt="cart" width="32" height="32" />
           <span> ({cart.length}) Itens </span>
         </div>
-      </div>
+      </header>
       <section>
         {data.map((prod, index) => (
           <div className="product-container" key={prod.id}>
