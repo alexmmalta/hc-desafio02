@@ -25,13 +25,11 @@ const Home: React.FC = () => {
     )
   }, [])
 
-  useEffect(() => {
-    localStorage.setItem(`@cart`, JSON.stringify(cart));
-  }, [cart]);
-
-  const handleCart = ( index: number ) => {
-    let product = data[index]
-    setCart(cart => [...cart,product]);
+  const handleCart = (index: number) => {
+    let push: any = [...cart, cart.push(data[index])]
+    setCart(push)
+    const productStore = JSON.stringify(cart);
+    localStorage.setItem('@cart', productStore)
   }
 
   return (
