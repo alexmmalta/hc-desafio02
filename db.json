@@ -2,38 +2,45 @@
     "produtos": [
         {
             "id": 1,
-            "name": "Papel1",
-            "photo": "https://d1kvbg99uxpcu.cloudfront.net/Custom/Content/Products/10/60/1060486_resma-de-papel-a4-rymo-chamex-2300016-75gr-com-500-folhas_m3_637342376049244006.jpg",
-            "description": "descrição",
-            "price": "50"
+            "name": "Chamex ECO",
+            "photo": "https://a-static.mlcdn.com.br/1500x1500/papel-sulfite-a4-reciclado-chamex-eco-75g-10-pctx500-fls-gna/brinquedodecrianca/58909p/ecd0c568423d7bef26d137a750b3cbca.jpg",
+            "description": "Resma com 500 papéis reciclados",
+            "price": "25,00"
         },
         {
             "id": 2,
-            "name": "Papel2",
-            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-jpuW5Yfqwvo-aJpYmFk_4ZlfTbvK52Ayf07h6T2eWvo1mDvd1bOaW2o53g&usqp=CAc",
-            "description": "descrição",
-            "price": "50"
+            "name": "A4 branco",
+            "photo": "https://images.tcdn.com.br/img/img_prod/406359/papel_a4_sulfite_chamex_office_210mm_x_297mm_75g_resma_com_500_folhas_759_1_20200723094249.jpg",
+            "description": "parece com o reciclado, só que é branco",
+            "price": "30,00"
         },
         {
             "id": 3,
-            "name": "Papel3",
-            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-jpuW5Yfqwvo-aJpYmFk_4ZlfTbvK52Ayf07h6T2eWvo1mDvd1bOaW2o53g&usqp=CAc",
-            "description": "descrição",
-            "price": "50"
+            "name": "A4 azul",
+            "photo": "https://m.media-amazon.com/images/I/61PyUeb6f3L._AC_SX522_.jpg",
+            "description": "igual o branco, só que azul",
+            "price": "35,00"
         },
         {
             "id": 4,
-            "name": "Papel4",
-            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-jpuW5Yfqwvo-aJpYmFk_4ZlfTbvK52Ayf07h6T2eWvo1mDvd1bOaW2o53g&usqp=CAc",
-            "description": "descrição",
-            "price": "50"
+            "name": "A4 rosa",
+            "photo": "https://m.media-amazon.com/images/I/61hfcqj7QvL._AC_SL1200_.jpg",
+            "description": "bem parecido com o azul, mas é rosa",
+            "price": "35,00"
         },
         {
             "id": 5,
-            "name": "Papel5",
-            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-jpuW5Yfqwvo-aJpYmFk_4ZlfTbvK52Ayf07h6T2eWvo1mDvd1bOaW2o53g&usqp=CAc",
-            "description": "descrição",
-            "price": "50"
+            "name": "A4 amarelo",
+            "photo": "https://m.media-amazon.com/images/I/61UOzwxcvAL._AC_SL1200_.jpg",
+            "description": "tipo o rosa, a diferença é que esse é amarelo",
+            "price": "35,00"
+        },
+        {
+            "id": 6,
+            "name": "A4 verde",
+            "photo": "https://images-na.ssl-images-amazon.com/images/I/61d-yZd7b1L._AC_SL1200_.jpg",
+            "description": "uma mistura entre um A4 azul e outro amarelo",
+            "price": "35,00"
         }
     ]
 }
