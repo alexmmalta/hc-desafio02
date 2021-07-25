@@ -49,10 +49,10 @@ const Home: React.FC = () => {
       <section>
         {data.map((prod, index) => (
           <div className="product-container" key={prod.id}>
-            <img src={prod.photo} alt="resma de papel" />
+            <img src={prod.photo} alt="resma de papel"/>
             <h4>{prod.name}</h4>
             <span>{prod.description}</span>
-            <h6>{prod.price}</h6>
+            <h6>R$ {prod.price}</h6>
             <button onClick={() => handleCart(index)}> Adicionar ao carrinho</button>
           </div>
         ))}
