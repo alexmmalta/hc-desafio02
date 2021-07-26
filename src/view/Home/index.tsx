@@ -51,9 +51,9 @@ const Home: React.FC = () => {
           <div className="product-container" key={prod.id}>
             <img src={prod.photo} alt="resma de papel"/>
             <h4>{prod.name}</h4>
-            <span>{prod.description}</span>
+            <span className="description">{prod.description}</span>
             <h6>R$ {prod.price}</h6>
-            <button onClick={() => handleCart(index)}> Adicionar ao carrinho</button>
+            <button onClick={() => handleCart(index)}> adicionar ao carrinho</button>
           </div>
         ))}
       </section>

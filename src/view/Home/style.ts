@@ -58,21 +58,32 @@ export const Container = styled.div`
 
 
         .product-container {
-            justify-content: center;
             text-align: center;
             height: 325px;
             background: #fff;
-/*             border-radius: 5px; */
+            display: flex;
+            flex-flow: column;
+            height: 100%;
             padding: 12px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
             transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+            align-items: center;
+            justify-content: center;
+
+            .description {
+                font-size: 12px;
+                color: #555;
+            }
 
             button {
+                cursor: pointer;
+                margin-top: auto;
                 width: 100%;
                 height: 50px;
                 border: none;
                 background-color: #16a085;
                 border-radius: 5px;
+
             }
             button:hover {
                 background-color: #1abc9c;

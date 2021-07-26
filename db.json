@@ -18,28 +18,28 @@
             "id": 3,
             "name": "A4 azul",
             "photo": "https://m.media-amazon.com/images/I/61PyUeb6f3L._AC_SX522_.jpg",
-            "description": "igual o branco, só que azul",
+            "description": "Nothing you do matters, your existence is a lie!",
             "price": "35,00"
         },
         {
             "id": 4,
             "name": "A4 rosa",
             "photo": "https://m.media-amazon.com/images/I/61hfcqj7QvL._AC_SL1200_.jpg",
-            "description": "bem parecido com o azul, mas é rosa",
+            "description": "Holy crap, Morty, run! Run for your life, Morty, run!",
             "price": "35,00"
         },
         {
             "id": 5,
             "name": "A4 amarelo",
             "photo": "https://m.media-amazon.com/images/I/61UOzwxcvAL._AC_SL1200_.jpg",
-            "description": "tipo o rosa, a diferença é que esse é amarelo",
+            "description": "Welcome to the darkest year of our adventures.",
             "price": "35,00"
         },
         {
             "id": 6,
             "name": "A4 verde",
             "photo": "https://images-na.ssl-images-amazon.com/images/I/61d-yZd7b1L._AC_SL1200_.jpg",
-            "description": "uma mistura entre um A4 azul e outro amarelo",
+            "description": "Rick, I don't like glowing rocks in the kitchen trash!",
             "price": "35,00"
         }
     ]
