@@ -46,6 +46,7 @@ const Home: React.FC = () => {
           <span> ({cart.length}) Itens </span>
         </div>
       </header>
+
       <section>
         {data.map((prod, index) => (
           <div className="product-container" key={prod.id}>
@@ -55,8 +56,15 @@ const Home: React.FC = () => {
             <h6>R$ {prod.price}</h6>
             <button onClick={() => handleCart(index)}> adicionar ao carrinho</button>
           </div>
+          
         ))}
       </section>
+
+      <footer>
+        <p>Alex Marins - 2021</p>
+        <p><a href="https://www.linkedin.com/in/alexmmalta/" target="_blank">LinkedIn</a> | <a href="https://github.com/alexmmalta" target="_blank">GitHub</a>
+        </p>
+      </footer>
 
     </ Container>
   );
